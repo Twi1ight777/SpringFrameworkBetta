@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Inversion of Control" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Chiglintsev-Vladislav&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Chiglintsev-Vladislav/SpringFramework.git&quot;,
+    &quot;accountId&quot;: &quot;b309f024-eea8-4099-8f1c-d2bfd528c79e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tqaxRDiQwzRzNvhSnlIfkuHSik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestingSpringFramework.executor": "Run",
+    "Application.ru.start.springframework.scope.TestingSpringFramework.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Mr.T/IdeaProjects/SpringFrameworkBetta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework" />
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\testProjectN1\src" />
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\testProjectN1" />
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\Lesson1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ru.start.springframework.scope.TestingSpringFramework">
+    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.alishev.springcourse.TestSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.alishev.springcourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.setter.TestingSpringFramework" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.start.springframework.setter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.start.springframework.construct.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.construct.TestingSpringFramework" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.start.springframework.construct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.start.springframework.scope.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.scope.TestingSpringFramework" />
+      <module name="SpringFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.start.springframework.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ru.start.springframework.scope.TestingSpringFramework" />
+        <item itemvalue="Application.TestingSpringFramework" />
+        <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.ru.start.springframework.construct.TestingSpringFramework" />
+        <item itemvalue="Application.TestingSpringFramework" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="" />
+      <created>1741082306243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741082306243</updated>
+      <workItem from="1741082309074" duration="54000" />
+      <workItem from="1741082402837" duration="30000" />
+      <workItem from="1741082853242" duration="151000" />
+      <workItem from="1741083253653" duration="535000" />
+      <workItem from="1741085138781" duration="3003000" />
+      <workItem from="1741255245181" duration="136000" />
+      <workItem from="1741255494753" duration="1091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing bean scope singleton and prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing bean scope singleton and prototype" />
+  </component>
+</project>

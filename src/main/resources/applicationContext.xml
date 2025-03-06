@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+    <!-- Бины для каждого жанра -->
+    <bean id="musicPopBean" class="ru.start.springframework.scope.PopMusic"/>
+    <bean id="musicRockBean" class="ru.start.springframework.scope.RockMusic"/>
+    <bean id="musicClassicBean" class="ru.start.springframework.scope.ClassicalMusic"/>
+
+    <!-- Бин MusicPlayer с внедрением списка -->
+     <bean id="musicPlayer"
+           class="ru.start.springframework.scope.MusicPlayer"
+           scope="prototype">
+         <property name="musicList">
+             <list>
+                 <ref bean="musicPopBean"/>
+                 <ref bean="musicRockBean"/>
+                 <ref bean="musicClassicBean"/>
+             </list>
+         </property>
+         <property name="name" value="${musicPlayer.name}"/>
+         <property name="volume" value="${musicPlayer.volume}"/>
+     </bean>
+</beans>
+
