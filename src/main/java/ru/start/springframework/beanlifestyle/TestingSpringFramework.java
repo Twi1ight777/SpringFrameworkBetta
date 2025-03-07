@@ -35,15 +35,17 @@ public class TestingSpringFramework {
 //        ClassicalMusic classicalMusic = context.getBean("musicClassicBean", ClassicalMusic.class);
 //        System.out.println("Музыка: " + classicalMusic.getSong());
 
-        Music classicalMusic = context.getBean("classicalMusic", Music.class);
-        MusicPlayer classicalMusicPlayer = new MusicPlayer(classicalMusic);
-        classicalMusicPlayer.playMusic();
-        Music rockMusic = context.getBean("rockMusic", Music.class);
-        MusicPlayer rockMusicPlayer = new MusicPlayer(rockMusic);
-        rockMusicPlayer.playMusic();
-        Music popMusic = context.getBean("popMusic", Music.class);
-        MusicPlayer popMusicPlayer = new MusicPlayer(popMusic);
-        popMusicPlayer.playMusic();
+//        Music classicalMusic = context.getBean("classicalMusic", Music.class);
+//        classicalMusicPlayer.playMusic();
+//        Music rockMusic = context.getBean("rockMusic", Music.class);
+//        rockMusicPlayer.playMusic();
+//        Music popMusic = context.getBean("popMusic", Music.class);
+//        popMusicPlayer.playMusic();
+
+//        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+//        musicPlayer.playMusic();
+        MusicPlayer player = context.getBean("musicPlayer", MusicPlayer.class);
+        player.playMusic();
         context.close(); // Из-за Prototype destroy-method у MusicPlayer не вызывается, а init метод вызывается
         // каждый раз при создании MusicPlayer в отличие от singleton.
     }

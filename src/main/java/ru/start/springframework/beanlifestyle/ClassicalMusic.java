@@ -3,8 +3,7 @@ package ru.start.springframework.beanlifestyle;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
-@Primary
+@Component // Объекты этого компонента будут использоваться по умолчанию, если не указано другого
 public class ClassicalMusic implements Music {
 //    private ClassicalMusic() {} // Паттерн Фабричного метода
 //    public static ClassicalMusic getClassicalMusic() {

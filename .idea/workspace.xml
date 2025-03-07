@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Changed workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/PopMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/TestingSpringFramework.java" afterDir="false" />
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Bean Lifecycle and Annotations @Component">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/TestingSpringFramework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,7 @@
       <workItem from="1741258259729" duration="24000" />
       <workItem from="1741258338164" duration="9000" />
       <workItem from="1741258423565" duration="21000" />
-      <workItem from="1741323537425" duration="5443000" />
+      <workItem from="1741323537425" duration="11502000" />
     </task>
     <task id="LOCAL-00001" summary="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties.">
       <option name="closed" value="true" />
@@ -222,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741257303462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Realized Bean Lifecycle and Annotations @Component">
+      <option name="closed" value="true" />
+      <created>1741329060347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741329060347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +262,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties." />
     <MESSAGE value="Changed workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed workspace.xml" />
+    <MESSAGE value="Realized Bean Lifecycle and Annotations @Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realized Bean Lifecycle and Annotations @Component" />
   </component>
 </project>

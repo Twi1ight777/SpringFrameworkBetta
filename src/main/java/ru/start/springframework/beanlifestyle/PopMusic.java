@@ -2,7 +2,7 @@ package ru.start.springframework.beanlifestyle;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class PopMusic implements Music {
 //    public void goMyInit() {
 //    System.out.println("PopMusic bean initialized");
