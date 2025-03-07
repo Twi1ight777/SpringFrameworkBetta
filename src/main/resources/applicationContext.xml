@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="ru.start.springframework.beanlifestyle"/>
+    <context:component-scan base-package="ru.start.springframework.arraylist"/>
 
 <!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
 

@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Bean Lifecycle and Annotations @Component">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/Computer.java" afterDir="false" />
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/PopMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/beanlifestyle/TestingSpringFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.TestingSpringFramework.executor": "Run",
+    "Application.ru.start.springframework.arraylist.TestingSpringFramework.executor": "Run",
     "Application.ru.start.springframework.beanlifestyle.TestingSpringFramework.executor": "Run",
     "Application.ru.start.springframework.scope.TestingSpringFramework.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,7 +72,7 @@
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mr.T/IdeaProjects/SpringFrameworkBetta/src/main/java/ru/start/springframework/beanlifestyle",
+    "last_opened_file_path": "C:/Users/Mr.T/IdeaProjects/SpringFrameworkBetta/src/main/java/ru/start/springframework/arraylist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mr.T\IdeaProjects\SpringFrameworkBetta\src\main\java\ru\start\springframework\arraylist" />
       <recent name="C:\Users\Mr.T\IdeaProjects\SpringFrameworkBetta\src\main\java\ru\start\springframework\beanlifestyle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +94,7 @@
       <recent name="C:\Users\Mr.T\IdeaProjects\SpringFramework\Lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.start.springframework.beanlifestyle.TestingSpringFramework">
+  <component name="RunManager" selected="Application.ru.start.springframework.arraylist.TestingSpringFramework">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.alishev.springcourse.TestSpring" />
       <extension name="coverage">
@@ -115,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.start.springframework.beanlifestyle.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.beanlifestyle.TestingSpringFramework" />
+    <configuration name="ru.start.springframework.arraylist.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.arraylist.TestingSpringFramework" />
       <module name="SpringFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.start.springframework.beanlifestyle.*" />
+          <option name="PATTERN" value="ru.start.springframework.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.start.springframework.construct.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.construct.TestingSpringFramework" />
+    <configuration name="ru.start.springframework.beanlifestyle.TestingSpringFramework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.start.springframework.beanlifestyle.TestingSpringFramework" />
       <module name="SpringFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.start.springframework.construct.*" />
+          <option name="PATTERN" value="ru.start.springframework.beanlifestyle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.start.springframework.arraylist.TestingSpringFramework" />
         <item itemvalue="Application.ru.start.springframework.beanlifestyle.TestingSpringFramework" />
         <item itemvalue="Application.ru.start.springframework.scope.TestingSpringFramework" />
         <item itemvalue="Application.TestSpring" />
         <item itemvalue="Application.TestingSpringFramework" />
-        <item itemvalue="Application.ru.start.springframework.construct.TestingSpringFramework" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +199,7 @@
       <workItem from="1741258259729" duration="24000" />
       <workItem from="1741258338164" duration="9000" />
       <workItem from="1741258423565" duration="21000" />
-      <workItem from="1741323537425" duration="11502000" />
+      <workItem from="1741323537425" duration="13929000" />
     </task>
     <task id="LOCAL-00001" summary="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties.">
       <option name="closed" value="true" />
@@ -228,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741329060347</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection">
+      <option name="closed" value="true" />
+      <created>1741337526969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741337526970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +276,7 @@
     <MESSAGE value="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties." />
     <MESSAGE value="Changed workspace.xml" />
     <MESSAGE value="Realized Bean Lifecycle and Annotations @Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realized Bean Lifecycle and Annotations @Component" />
+    <MESSAGE value="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection" />
   </component>
 </project>
