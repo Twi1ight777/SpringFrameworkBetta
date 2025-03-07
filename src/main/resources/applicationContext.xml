@@ -7,26 +7,29 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:component-scan base-package="ru.start.springframework.arraylist"/>
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <!-- Бины для каждого жанра -->
-    <bean id="musicPopBean" class="ru.start.springframework.scope.PopMusic"/>
-    <bean id="musicRockBean" class="ru.start.springframework.scope.RockMusic"/>
-    <bean id="musicClassicBean" class="ru.start.springframework.scope.ClassicalMusic"/>
+<!--    &lt;!&ndash; Бины для каждого жанра &ndash;&gt;-->
+<!--    <bean id="musicPopBean" class="ru.start.springframework.beanlifestyle.PopMusic" init-method="goMyInit" destroy-method="goMyDestroy"/>-->
+<!--    <bean id="musicRockBean" class="ru.start.springframework.beanlifestyle.RockMusic" init-method="goMyInit" destroy-method="goMyDestroy"/>-->
+<!--    <bean id="musicClassicBean" class="ru.start.springframework.beanlifestyle.ClassicalMusic" init-method="goMyInit"-->
+<!--          destroy-method="goMyDestroy" factory-method="getClassicalMusic">-->
+<!--    </bean>-->
 
-    <!-- Бин MusicPlayer с внедрением списка -->
-     <bean id="musicPlayer"
-           class="ru.start.springframework.scope.MusicPlayer"
-           scope="prototype">
-         <property name="musicList">
-             <list>
-                 <ref bean="musicPopBean"/>
-                 <ref bean="musicRockBean"/>
-                 <ref bean="musicClassicBean"/>
-             </list>
-         </property>
-         <property name="name" value="${musicPlayer.name}"/>
-         <property name="volume" value="${musicPlayer.volume}"/>
-     </bean>
+<!--    &lt;!&ndash; Бин MusicPlayer с внедрением списка &ndash;&gt;-->
+<!--     <bean id="musicPlayer"-->
+<!--           class="ru.start.springframework.beanlifestyle.MusicPlayer"-->
+<!--           scope="prototype" init-method="goMyInit" destroy-method="goMyDestroy">-->
+<!--         <property name="musicList">-->
+<!--             <list>-->
+<!--                 <ref bean="musicPopBean"/>-->
+<!--                 <ref bean="musicRockBean"/>-->
+<!--                 <ref bean="musicClassicBean"/>-->
+<!--             </list>-->
+<!--         </property>-->
+<!--         <property name="name" value="${musicPlayer.name}"/>-->
+<!--         <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--     </bean>-->
 </beans>
 
