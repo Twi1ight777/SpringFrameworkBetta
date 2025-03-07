@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" afterDir="false" />
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Annotations with ArrayList and switch-case and Random and Enum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -199,7 +197,7 @@
       <workItem from="1741258259729" duration="24000" />
       <workItem from="1741258338164" duration="9000" />
       <workItem from="1741258423565" duration="21000" />
-      <workItem from="1741323537425" duration="13929000" />
+      <workItem from="1741323537425" duration="16778000" />
     </task>
     <task id="LOCAL-00001" summary="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties.">
       <option name="closed" value="true" />
@@ -241,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741337526970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Realized Annotations with ArrayList and switch-case and Random and Enum">
+      <option name="closed" value="true" />
+      <created>1741339869955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741339869955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +283,7 @@
     <MESSAGE value="Changed workspace.xml" />
     <MESSAGE value="Realized Bean Lifecycle and Annotations @Component" />
     <MESSAGE value="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection" />
+    <MESSAGE value="Realized Annotations with ArrayList and switch-case and Random and Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realized Annotations with ArrayList and switch-case and Random and Enum" />
   </component>
 </project>
