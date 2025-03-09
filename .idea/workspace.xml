@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Realized Annotations with ArrayList and switch-case and Random and Enum">
+    <list default="true" id="4799884f-d231-4ea6-9dac-09edb6283951" name="Changes" comment="Testing @Scope (&quot;singleton/prototype&quot;), @Value from file, @PostConstruct and @PreDestroy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/start/springframework/arraylist/TestingSpringFramework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestingSpringFramework.executor": "Run",
-    "Application.ru.start.springframework.arraylist.TestingSpringFramework.executor": "Run",
-    "Application.ru.start.springframework.beanlifestyle.TestingSpringFramework.executor": "Run",
-    "Application.ru.start.springframework.scope.TestingSpringFramework.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mr.T/IdeaProjects/SpringFrameworkBetta/src/main/java/ru/start/springframework/arraylist",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestingSpringFramework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.start.springframework.arraylist.TestingSpringFramework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.start.springframework.beanlifestyle.TestingSpringFramework.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ru.start.springframework.scope.TestingSpringFramework.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mr.T/IdeaProjects/SpringFrameworkBetta/src/main/java/ru/start/springframework/arraylist&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mr.T\IdeaProjects\SpringFrameworkBetta\src\main\java\ru\start\springframework\arraylist" />
@@ -197,7 +195,8 @@
       <workItem from="1741258259729" duration="24000" />
       <workItem from="1741258338164" duration="9000" />
       <workItem from="1741258423565" duration="21000" />
-      <workItem from="1741323537425" duration="16778000" />
+      <workItem from="1741323537425" duration="17031000" />
+      <workItem from="1741530148969" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="Last realization of Scope. Also realized Dependency Injection and Inversion of Control. MusicPlayer bean with List implementation and properties.">
       <option name="closed" value="true" />
@@ -247,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741339869955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Testing @Scope (&quot;singleton/prototype&quot;), @Value from file, @PostConstruct and @PreDestroy">
+      <option name="closed" value="true" />
+      <created>1741342984208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741342984208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +291,8 @@
     <MESSAGE value="Realized Bean Lifecycle and Annotations @Component" />
     <MESSAGE value="Realized Annotations @Compjnent @Autowired @Qualifier. Dependency Injection" />
     <MESSAGE value="Realized Annotations with ArrayList and switch-case and Random and Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realized Annotations with ArrayList and switch-case and Random and Enum" />
+    <MESSAGE value="Testing @Scope (&quot;singleton/prototype&quot;) @Value from file" />
+    <MESSAGE value="Testing @Scope (&quot;singleton/prototype&quot;), @Value from file, @PostConstruct and @PreDestroy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing @Scope (&quot;singleton/prototype&quot;), @Value from file, @PostConstruct and @PreDestroy" />
   </component>
 </project>
