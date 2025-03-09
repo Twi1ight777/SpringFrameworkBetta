@@ -1,12 +1,13 @@
 package ru.start.springframework.arraylist;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestingSpringFramework {
     public static void main(String[] args) {
         // Запуск контекста приложения с помощью XML-файла конфигурации.
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "applicationContext.xml");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+                SpringConfig.class);
 //        "testBean" - id бина. TestBean имя класса. testBean - объект, созданный Spring Framework.
 //        ClassicalMusic или RockMusic - наследники Music. В конфигурации можно переключаться между Music и RockMusic.
 //        !Music music = context.getBean("musicBean", Music.class); // Надо избежать внедрения вручную music.
